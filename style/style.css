@@ -6,5 +6,8 @@
 	display: flex;
 	justify-content: center;
 	margin-top: 20%;
-	font-family: 
+	font-family: serif;
+	animation-duration: 5s;
+	color: lime;
+	text-shadow: 2px 2px red;
 }
