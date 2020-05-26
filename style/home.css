@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #4c4c4c;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+}
+
+.subheading {
+	font-family: 'Bebas Neue', sans-serif;
+  width: 33%;
+  text-align: center;
+}
+
+.subheading:hover {
+  color: #cd8fff;
+  transition: color 0.5s;
+  cursor: pointer;
+}
+
+.rs-tv {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  width: auto;
+  height: 70%;
+}
+
+.rs-tv img {
+  width: 80%;
+  height: auto;
+}
+
+.tv-body {
+  z-index: -99;
+}
+
+.mask {
+  position: absolute;
+  z-index: 0;
+}
