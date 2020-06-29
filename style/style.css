@@ -2,12 +2,78 @@
 	background-image: url(../images/fuzz.gif);
 }
 
+.rs-animation {
+	text-align: center;
+	max-width: 400px;
+	padding-top:100px;
+	margin-bottom: -50px;
+}
+
+.homepage-container {
+	background-color: black;
+	width: 100%;
+	margin: 0 auto;
+	z-index: -1;
+}
+
+.header {
+	font-family: sans-serif;
+	font-size: 2em;
+	background-color: #ff0033;
+	color: black;
+	font-weight: bolder;
+	text-transform: uppercase;
+	letter-spacing: -2px;
+}
+
+.header:hover {
+	background-color: lime;
+	transition-duration: 0.7s;
+	cursor: pointer;
+}
+
 .intro-text {
 	display: flex;
 	justify-content: center;
 	margin-top: 20%;
 	font-family: serif;
-	animation-duration: 5s;
 	color: lime;
 	text-shadow: 2px 2px red;
+	padding-bottom: 2%;
+}
+
+.animate__flip {
+	--animate-duration: 10s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+}
+
+.animate-2 {
+	animation-delay: 4s !important;
+}
+
+.animate-3 {
+	animation-delay: 6s !important;
+}
+
+.subheader {
+	display: flex;
+	justify-content: center;
+	font-family: sans-serif;
+	font-size: 1.5em;
+	color: lime;
+	padding-bottom: 2%;
+}
+
+.latest-music {
+	margin: 0 auto;
+	text-align:center;
+}
+
+.copyright {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+	color: black;
+	padding: 2%;
 }
