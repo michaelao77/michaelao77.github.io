@@ -2,12 +2,18 @@
 	background-image: url(../images/fuzz.gif);
 }
 
+.row {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .rs-animation {
 	text-align: center;
 	max-width: 400px;
 	padding-top:50px;
 	margin-bottom: -50px;
 }
+
 
 .homepage-container {
 	background-color: black;
@@ -76,4 +82,15 @@
 	font-size: 1em;
 	color: black;
 	padding: 2%;
+}
+
+@media (max-width: 575.98px) {
+	.rs-animation {
+	max-width: 250px;
+	}
+	.homepage-container {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
