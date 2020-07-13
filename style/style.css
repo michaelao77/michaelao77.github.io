@@ -84,6 +84,16 @@
 	padding: 2%;
 }
 
+.social {
+	padding-top: 50px;
+}
+
+.social-icon {
+	width: 75px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
 @media (max-width: 575.98px) {
 	.rs-animation {
 	max-width: 250px;
