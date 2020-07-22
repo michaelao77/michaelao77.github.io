@@ -132,7 +132,10 @@
 .giphy-embed {
 	float: right;
 	margin: 20px 0px 20px 20px;
-	overflow: hidden;
+	width: 480px;
+}
+
+@media (max-width: 575.98px) {
 
 }
 
@@ -189,6 +192,7 @@ hr {
 	width: 125px;
 	right: 0;
 	padding-left: 20px;
+	padding-bottom: 20px;
 }
 
 .animate__pulse {
@@ -249,5 +253,8 @@ hr {
 		text-align: center;
 		margin-left: auto;
 		margin-right: auto;
+	}
+	.giphy-embed {
+		max-width: 300px;
 	}
 }
